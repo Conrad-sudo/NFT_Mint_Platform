@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+@import url("https://fonts.googleapis.com/css?family=VT323");
+
+.Home {
+  text-align: center;
+  font-family: "Press Start 2P ","VT323";
+  color: white;
+}
+
+*{
+  box-sizing: border-box;
+
+}
+
+body{
+
+  overflow: hidden;
+
+}
+
+.overlay{
+
+  opacity: 0.85;
+  width:100%;
+  height: 100%;
+  z-index: 10;
+  top:0;
+  left: 0;
+  position: fixed;
+
+
+}
+
+.moving-background{
+  z-index: -1;
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("./assets/background/parallax-bg.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 40% 40%;
+
+
+}
+
+.admin-background{
+  z-index: -1;
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("./assets/background/adm1.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 40% 40%;
+
+
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
+  float: left;
+
+  padding: 1px 0;
+  position: sticky left;
+}
+.about{
+  display: flex;
+  float: right;
+  margin-right: 20px;
+
+  margin-top: 20px;
+  
+
+}
+
+a {
+  margin-left: 25px;
+  margin-top: 20px;
+  font-size: x-large;
+  color: rgb(219, 90, 43);
+  
+}
+
+a:hover{
+
+  background-color: rgba(161, 141, 134, 0.438);
+}
+
+a:active{
+
+  background-color:rgba(165, 66, 30, 0.74) ;
+}
+
+.connectButton{
+  margin-top: 30px;
+  background-color: rgb(230, 224, 141);
+  width: 100px;
+  height: 30px;
+  font-size: x-large;
+  font-family:"VT323" ;
+  
+
+}
+
+.connectButton:hover{
+  background-color: rgb(204, 198, 107) ;
+}
+
+.connectButton:active{
+  background-color: rgb(161, 157, 95) ;
+}
+
+.mintButton{
+
+  margin-top: 30px;
+  background-color: rgb(196, 221, 83);
+  width: 100px;
+  height: 30px;
+  font-size: x-large;
+  font-family:"VT323" ;
+
+}
+
+.mintButton:hover{
+
+  background-color:rgb(168, 190, 70) ;
+}
+
+.mintButton:active{
+
+  background-color:rgb(134, 151, 55) ;
+}
+
+
+.adminButton{
+
+  margin-top: 30px;
+  background-color: rgb(224, 166, 59);
+  width: 100px;
+  height: 30px;
+  font-size: x-large;
+  font-family:"VT323" ;
+
+}
+
+.adminButton:hover{
+
+  background-color:rgb(194, 144, 51) ;
+}
+
+.adminButton:active{
+
+  background-color:rgb(172, 127, 44) ;
+}
+
+
+
+
+
+.content{
+  margin-top:200px ;
+ 
+}
