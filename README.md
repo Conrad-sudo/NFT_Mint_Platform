@@ -5,9 +5,7 @@ An ERC-721 NFT minitng platform written in React and Solidity using Hardhat
 run npm install to install dependencies 
 
 
-Create a .env file with following credentials:
-
-FORKED_MAINNET_WALLET=""
+Create a .env file with the following credentials 
 GOERLI_WALLET=""
 OWNER=""
 GOERLI_RPC_URL=""
